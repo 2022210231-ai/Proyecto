@@ -1,0 +1,12 @@
+<html>
+<head><title>Agregar Producto</title></head>
+<body>
+    <h2>Agregar Nuevo Producto</h2>
+    <form action="AgregarServlet" method="post">
+        Nombre: <input type="text" name="nombre"><br><br>
+        Categoría: <input type="text" name="categoria"><br><br>
+        Precio: <input type="text" name="precio"><br><br>
+        <input type="submit" value="Guardar">
+    </form>
+</body>
+</html>
