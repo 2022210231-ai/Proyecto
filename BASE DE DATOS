@@ -1,0 +1,15 @@
+CREATE DATABASE tienda_db;
+USE tienda_db;
+
+CREATE TABLE producto (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(100),
+    categoria VARCHAR(50),
+    precio DECIMAL(10,2)
+);
+
+INSERT INTO producto (nombre, categoria, precio) VALUES
+('Laptop Lenovo', 'Laptop', 2800.00),
+('Computadora HP', 'Desktop', 3500.00),
+('Laptop Asus', 'Laptop', 3200.00),
+('PC Gamer', 'Desktop', 5200.00);
